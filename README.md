@@ -26,5 +26,5 @@ Or docker run -d -p 8080:8080 68   [where 68 is the first few bytes hash of the 
 
 
 ==== Watch the logs ===  
-sudo docker ps   [get start of the hash]  
+sudo docker ps   [get start of running container and get the hash]  
 sudo docker logs -f 37  [where 37 is the fist few chars of hash]  
