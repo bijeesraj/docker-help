@@ -11,7 +11,7 @@ sudo docker rmi 2f 69 [remove images 2f and 69 are the starting hash of images]
 docker-compose up   [to start docker image]  
 
  
-====== Build a Image and Push to Hub ==========
+====== Build a Image and Push to Hub ==========  
 sudo docker login --username=bijeesraj007 [Login to docker hub from terminal, so that you an push the image]  
 docker build -t bijeesraj007/shop:latest . Build and Tag with name 'bijeesraj007/shop:latest' make sure to be in the location where dockerfile is located . sm-shop]  
 docker build .    [generic build command]  
