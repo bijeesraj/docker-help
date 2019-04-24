@@ -6,8 +6,8 @@ Install Docker in Ubuntu : https://phoenixnap.com/kb/how-to-install-docker-on-ub
 sudo docker images  
 sudo docker rmi 2f 69 [remove images 2f and 69 are the starting hash of images]  
 
-==== for Creating image from something -----  
-
+==== when you have multiple contaners [weapp, db etc] -----  
+docker-compose file will be used to define.  
 docker-compose up   [to start docker image]  
 
  
