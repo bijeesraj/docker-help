@@ -29,7 +29,7 @@ Or docker run -d -p 8080:8080 68   [where 68 is the first few bytes hash of the 
 sudo docker ps   [get start of running container and get the hash]  
 sudo docker logs -f 37  [where 37 is the fist few chars of hash]  
 
-=== Building image of a Spring boot app and Run it ==
+=== Building image of a Spring boot app and Run it ==  
 docker build -t docker-demo-app-1.0.jar .
 docker image ls
 docker run -p 9090:8080 docker-demo-app-1.0.jar
