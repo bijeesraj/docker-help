@@ -33,3 +33,4 @@ sudo docker logs -f 37  [where 37 is the fist few chars of hash]
 docker build -t docker-demo-app-1.0.jar .  
 docker image ls  
 docker run -p 9090:8080 docker-demo-app-1.0.jar  
+docker run -dp 80:8080 --memory="1.85g" --memory-swap="2g" bijeesraj007/ffmpeg-spring-boot-app-v1:firsttry
