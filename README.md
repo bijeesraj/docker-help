@@ -13,7 +13,10 @@ docker-compose up   [to start docker image]
  
 ====== Build a Image and Push to Hub ==========  
 sudo docker login --username=bijeesraj007 [Login to docker hub from terminal, so that you an push the image]  
-docker build -t bijeesraj007/shop:latest . Build and Tag with name 'bijeesraj007/shop:latest' make sure to be in the location where dockerfile is located . sm-shop]  
+docker build -t bijeesraj007/shop:latest . Build and Tag with name 'bijeesraj007/shop:latest' make sure to be in the location where dockerfile is located . sm-shop] 
+(no need to give explicit tag latest, by default its latest)
+
+
 docker build .    [generic build command]  
 docker push bijeesraj007/shop:latest  [To push a created image to docker hub where bijeesraj007/shop is the image name]  
 
